@@ -1,13 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     buildToolsVersion "27.0.3"
 
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 26
+        targetSdkVersion 2
         versionCode 1
         versionName "1.0"
 
@@ -22,10 +23,20 @@ android {
     }
 }
 
+publish {
+    userOrg = 'kwabenberko'
+    groupId = 'com.github.KwabenBerko'
+    artifactId = 'smsbroadcastreceiverlib'
+    publishVersion = '0.0.1'
+    desc = 'An Android Broadcast Receiver Library For Capturing/Reading Incoming SMS'
+    uploadName='SmsBroadcastReceiver'
+    website = 'https://github.com/KwabenBerko/SmsBroadcastReceiver.git'
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
