@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmsBroadcastReceiver.iml" filepath="$PROJECT_DIR$/SmsBroadcastReceiver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/app.iml" filepath="$PROJECT_DIR$/sample/app.iml" />
+      <module fileurl="file://C:\Projects\Android\SmsBroadcastReceiver\sample\app.iml" filepath="C:\Projects\Android\SmsBroadcastReceiver\sample\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/smsbroadcastreceiverlib/smsbroadcastreceiverlib.iml" filepath="$PROJECT_DIR$/smsbroadcastreceiverlib/smsbroadcastreceiverlib.iml" />
     </modules>
   </component>
