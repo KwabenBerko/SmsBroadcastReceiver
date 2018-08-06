@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmsBroadcastReceiver.iml" filepath="$PROJECT_DIR$/SmsBroadcastReceiver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/app.iml" filepath="$PROJECT_DIR$/sample/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/smsbroadcastreceiverlib/smsbroadcastreceiverlib.iml" filepath="$PROJECT_DIR$/smsbroadcastreceiverlib/smsbroadcastreceiverlib.iml" />
     </modules>
   </component>
