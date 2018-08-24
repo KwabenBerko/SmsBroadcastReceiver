@@ -58,7 +58,7 @@ Still in the `AndroidManifest.xml` file, register your newly created custom clas
 </receiver>
 
 ```
-
+Send an sms to the device's phone number and see it in action.
 
 
 Happy Coding!
