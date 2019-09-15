@@ -1,7 +1,8 @@
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
+
 ## DEPRECATED
-**This is no longer supported as Google now restricts access to SMS and Call Log Permissions**
+:bangbang: **This is no longer supported as Google now restricts access to SMS and Call Log Permissions**
 
 An Android Broadcast Receiver Library For Capturing/Reading Incoming SMS.
 
